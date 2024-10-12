@@ -1,0 +1,163 @@
+/* src/styles.css (or src/components/Calculator.css) */
+
+body {
+    font-family: Arial, sans-serif; /* Use a clean sans-serif font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Light Mode Styles */
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #333; /* Darker background for dark mode */
+    color: white;
+}
+
+/* Calculator Container */
+.calculator {
+    max-width: 400px;
+    width: 100%; /* Full width up to max-width */
+    margin: auto;
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 20px; /* Padding around the calculator */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #f9f9f9; /* Light background for calculator */
+}
+
+/* Input Field Styles */
+input {
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Border for the input */
+    border-radius: 5px; /* Rounded corners for the input */
+    padding: 5px; /* Padding inside the input */
+}
+
+/* Button Grid Layout */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns layout */
+    gap: 10px; /* Gap between buttons */
+}
+
+/* Button Styles */
+button {
+    height: 50px; /* Height of the buttons */
+    font-size: 18px; /* Font size for button text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* History Section Styles */
+.history {
+    margin-top: 20px; /* Space above history */
+    border-top: 1px solid #ccc; /* Divider line */
+    padding-top: 10px; /* Padding above history list */
+}
+
+/* History List Styles */
+.history ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+/* History List Item Styles */
+.history li {
+    margin: 5px 0; /* Space between history items */
+    font-size: 16px; /* Font size for history text */
+}
+
+/* Theme Toggle Button Styles */
+button.theme-toggle {
+    margin-top: 10px; /* Space above theme toggle */
+    background-color: #28a745; /* Green background for toggle */
+}
+
+button.theme-toggle:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+
+/* src/components/Calculator.css */
+.calculator-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out calculator and graph */
+    max-width: 100%; /* Allow full width */
+}
+
+.calculator {
+    max-width: 400px; /* Set max width for calculator */
+    margin: 20px; /* Add some margin */
+    border: 1px solid #ccc; /* Border for calculator */
+    padding: 20px; /* Padding inside calculator */
+    border-radius: 10px; /* Rounded corners */
+}
+
+input {
+    width: 100%; /* Full width for input */
+    height: 40px; /* Height for input */
+    font-size: 24px; /* Font size for input */
+    text-align: right; /* Align text to the right */
+    margin-bottom: 10px; /* Margin below input */
+}
+
+.buttons {
+    display: grid; /* Use grid for buttons */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px; /* Space between buttons */
+}
+
+button {
+    height: 50px; /* Height for buttons */
+    font-size: 18px; /* Font size for buttons */
+}
+
+/* Additional styles for graphing */
+.graph-container {
+    flex-grow: 1; /* Allow graph to grow */
+    margin: 20px; /* Add some margin */
+}
+
+
+/* src/components/QuadraticSolver.css */
+.quadratic-solver {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.quadratic-solver input {
+    margin: 5px;
+    padding: 8px;
+    font-size: 16px;
+    width: 80px; /* Fixed width for inputs */
+}
+
+.quadratic-solver button {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+}

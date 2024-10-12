@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* styles.css */
+.calculator {
+  /* Add your styles for the calculator layout */
+}
+
+.buttons {
+  /* Add styles for the button layout */
+}
+
+.history {
+  /* Add styles for history section */
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/* Additional styles for calculator and buttons */
